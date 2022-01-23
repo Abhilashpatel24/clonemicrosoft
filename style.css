@@ -1,0 +1,768 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+.header{
+    margin-left: 100px;
+    /* margin-right: 20px; */
+    height: 70px;
+    width: 90%;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#leftnav {
+    display: flex;
+    align-items: center;
+}
+#leftnav img{
+   
+    width: 110px;
+   margin-left: 30px;
+   
+}
+#leftnav a{
+    font-size: 16px;
+   text-decoration: none;
+   margin-left: 20px;
+   color: #777;
+  
+}
+#leftnav a:hover{
+    border-bottom: 2px solid black;
+}
+#rightnav a:hover{
+    border-bottom: 2px solid black;
+}
+#rightnav {
+    display: flex;
+    align-items: center;
+}
+#rightnav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #777;
+   
+ }
+ #rightnav i{
+   
+    
+    font-size: 15px;
+    margin-left: 10px;
+    /* margin-top: 20px; */
+
+}
+/* #rightnav i:nth-child(8){
+    font-size: 555px;
+    margin-top: 20px;
+
+} */
+#search>i{
+  text-align: center;
+    font-size: 30px;
+    margin-left: 5px;
+  
+    /* font-weight: 100; */
+    /* color: #777; */
+}
+ .header2{
+     height: 100%;
+     width: 93%;
+     margin-left: 90px;
+
+ }
+ .header2 img{
+    height: 70%;
+    width: 100%;
+    padding: 0 40px ;   
+}
+#text{
+    position: absolute;
+    left: 10%;
+    top:35%;
+}
+#text1{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    text-decoration: none;
+    height: 50px;
+    width: 150px; 
+    color: white;
+    background-color: black;
+    font-weight: 800;
+}
+#leftarrow{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.938);
+    position: absolute;
+    left: 7%;
+    top: 40%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rightarrow{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.938);
+    position: absolute;
+    right: 6%;
+    top: 40%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#leftarrow>i{
+    font-size: 40px;
+    font-weight: 100;
+    color: #777;
+}
+#rightarrow>i{
+    font-size: 40px;
+    font-weight: 100;
+    color: #777;
+}
+.header3{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 500px;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    /* background-color: black; */
+} 
+#window1 img{
+    height: 100%;
+    width: 130px;
+    margin-left: -10px;
+    /* margin-left: 120px; */
+} 
+#window2 img{
+    height: 100%;
+    width: 130px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    /* text-align: center; */
+} 
+#window3 img{
+    height: 100%;
+    width: 130px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+} 
+#window4 img{
+    height: 100%;
+    width: 130px;
+    margin-left: 100px;
+}
+#window4 h4{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+/* #window4 h4:nth-child(1){
+    position: absolute;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+#win2 {
+    position: absolute;
+    left: 38%;
+    margin-top: -40px;
+}
+#win3 {
+    position: absolute;
+    left: 47%;
+    margin-top: -30px;
+}
+.header4{
+    display: flex;
+    height: 50%;
+    width: 95%;
+    /* background-color: aqua; */
+   margin-left: 100px;
+}
+#surface img{
+    height: 230px;
+    width: 420px;
+  
+}
+#surface h2{
+    /* margin-left: 40px; */
+    font-weight: 500;
+}
+#surface p{
+    /* margin-left: 40px; */
+    font-size: 20px;
+}
+/* #surface a{
+    margin-left: -00px;
+} */
+
+#microsoft img{
+    height: 230px;
+    width: 420px;
+    margin-left: 42px;
+}
+#microsoft h2{
+    margin-left: 40px;
+    font-weight: 500;
+}
+#microsoft p{
+    margin-left: 40px;
+    font-size: 20px;
+}
+#newsurface img{
+    height: 230px;
+    width: 420px;
+    margin-left: 41px;
+}
+#newsurface h2{
+    margin-left: 40px;
+    font-weight: 500;
+}
+#newsurface p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-size: 20px;
+}
+#xbox img{
+    height: 230px;
+    width: 420px;
+    margin-left: 41px;
+}
+#xbox h2{
+    margin-left: 40px;
+    font-weight: 500;
+}
+#xbox p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-size: 20px;
+}
+.header4 a{
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header4 i{
+    /* display: flex; align-items: center;
+    justify-content: center; */
+    /* margin-top: 50px; */
+}
+#shift{
+    margin-left: 50px;
+}
+.header4 a:hover{
+    border-bottom: 2px solid rgb(118, 116, 230);
+}
+.header5{
+    height: 120%;
+    width: 100%;
+    text-align: center;
+
+}
+.header5 img{
+   height: 70%;
+   width: 95%;
+   padding: 0 40px ;   
+}
+#text2{
+    position: absolute;
+    left: 44%;
+    top: 170%;
+}
+#text3{
+    position: absolute;
+    left: 33%;
+    top: 180%;
+    text-align: center;
+}
+
+/* .header5 button{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   left: 10%;
+   top: 45%;
+   text-decoration: none;
+   height: 50px;
+   width: 150px; 
+   color: white;
+   background-color: black;
+   font-weight: 800;
+} */
+#button2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   left: 45%;
+   top: 190%;
+   text-decoration: none;
+   height: 50px;
+   width: 180px; 
+   color: white;
+   background-color: black;
+   font-weight: 600;
+   font-size: 20px;
+} 
+#button2>i{
+     
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-weight: 600;
+    font-size: 30px;
+ } 
+ .header6{
+    display: flex;
+    height: 50%;
+    width: 95%;
+    /* background-color: aqua; */
+   margin-left: 40px;
+   margin-top: -300px;
+}
+#surface img{
+    height: 230px;
+    width: 420px;
+  
+}
+#surface h2{
+    /* margin-left: 40px; */
+    font-weight: 500;
+}
+#surface p{
+    /* margin-left: 40px; */
+    font-size: 20px;
+}
+#surface a{
+    margin-left: -00px;
+}
+
+#microsoft img{
+    height: 230px;
+    width: 420px;
+    margin-left: 42px;
+}
+#microsoft h2{
+    margin-left: 40px;
+    font-weight: 500;
+}
+#microsoft p{
+    margin-left: 40px;
+    font-size: 20px;
+}
+#newsurface img{
+    height: 230px;
+    width: 420px;
+    margin-left: 41px;
+}
+#newsurface h2{
+    margin-left: 40px;
+    font-weight: 500;
+}
+#newsurface p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-size: 20px;
+}
+#xbox img{
+    height: 230px;
+    width: 420px;
+    margin-left: 41px;
+}
+#xbox h2{
+    margin-left: 40px;
+    font-weight: 500;
+}
+#xbox p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-size: 20px;
+}
+.header4 a{
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header6 i{
+    /* display: flex; align-items: center;
+    justify-content: center; */
+    /* margin-top: 50px; */
+}
+#shift{
+    margin-left: 50px;
+}
+.header6 a:hover{
+    border-bottom: 2px solid rgb(118, 116, 230);
+}
+
+
+
+.header6{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    /* background-color: aqua; */
+   margin-left: 20px;
+}
+#surface1{
+    margin-left: 70px;
+}
+#surface1 img{
+    height: 230px;
+    width: 420px;
+  
+}
+#surface1 h2{
+    /* margin-left: 40px; */
+    font-weight: 500;
+}
+#surface1 p{
+    /* margin-left: 40px; */
+    font-size: 20px;
+}
+#surface1 a{
+    margin-left: -00px;
+}
+
+#microsoft1 img{
+    height: 230px;
+    width: 430px;
+    margin-left: 48px;
+}
+#microsoft1 h2{
+    margin-left: 44px;
+    font-weight: 500;
+}
+#microsoft1 p{
+    margin-left: 44px;
+    font-size: 20px;
+}
+#newsurface1 img{
+    height: 230px;
+    width: 430px;
+    margin-left: 41px;
+}
+#newsurface1 h2{
+    margin-left: 44px;
+    font-weight: 500;
+}
+#newsurface1 p{
+    margin-left: 44px;
+    font-size: 20px;
+    font-size: 20px;
+}
+#xbox1 img{
+    height: 230px;
+    width: 430px;
+    margin-left: 41px;
+}
+#xbox1 h2{
+    margin-left: 44px;
+    font-weight: 500;
+}
+#xbox1 p{
+    margin-left: 44px;
+    font-size: 20px;
+    font-size: 20px;
+}
+.header4 a{
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#shift2{
+ 
+  
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+   
+}
+.header4 a:hover{
+    border-bottom: 2px solid rgb(118, 116, 230);
+}
+#link1{
+ 
+   
+    margin-left: 400px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+   
+}
+#link2{
+ 
+   
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+   
+}
+#link3{
+ 
+   
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+   
+}
+#link4{
+ 
+   
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+   
+}
+
+
+
+.header7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20%;
+    width: 90%;
+    background-color: #777;
+    margin-left: 100px;
+}
+#lasts{ 
+    font-size: 50px;
+    font-weight: 600;
+}
+#para{
+    margin-top: 30px;
+    font-size: 25px;
+
+}
+#link7{
+    
+    margin-left: 40px;
+    font-size: 23px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.header8{
+    height: 15%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+#social{
+    margin-left: 100px;
+    font-weight: 600;
+    color: #777;
+}
+.header8 i{
+    margin-left: 30px;
+    font-size:50px;
+}
+.header9{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(236, 228, 228);
+    /* margin-left: 100px; */
+}
+#edu1{
+    display: flex;
+   /* justify-content: center; */
+   margin-top: 0px;
+    height: 70%;
+    width: 16%;
+    /* background-color: aqua; */
+    flex-direction: column;
+    align-items:flex-start;
+   margin-left: 100px;
+    
+    
+}
+#edu2{
+    display: flex;
+    margin-top: 0px;
+    height: 70%;
+    width: 16%;
+   
+    flex-direction: column;
+    align-items:flex-start;
+   margin-left: 100px;
+    height: 70%;
+    width: 16%;
+    /* background-color: aqua; */
+   
+}
+#edu3{
+    display: flex;
+    margin-top: 0px;
+    height: 70%;
+    width: 16%;
+    /* background-color: aqua; */
+    flex-direction: column;
+    align-items:flex-start;
+   margin-left: 100px;
+    height: 70%;
+    width: 16%;
+    /* background-color: aqua; */
+    text-align: center;
+}
+#edu4{
+    display: flex;
+    margin-top: 0px;
+    height: 70%;
+    width: 16%;
+    /* background-color: aqua; */
+    flex-direction: column;
+    align-items:flex-start;
+   margin-left: 100px;
+    height: 70%;
+    width: 16%;
+    /* background-color: aqua; */
+}
+#edu5{
+    display: flex;
+    margin-top: 0px;
+    height: 70%;
+    width: 16%;
+    /* background-color: aqua; */
+    flex-direction: column;
+    align-items:flex-start;
+   margin-left: 100px;
+    height: 70%;
+    width: 16%;
+    /* background-color: aqua; */
+}
+#edu6{
+    display: flex;
+    margin-top: 0px;
+    height: 70%;
+    width: 16%;
+    /* background-color: aqua; */
+    flex-direction: column;
+    align-items:flex-start;
+   margin-left: 100px;
+    height: 70%;
+    width: 16%;
+    /* background-color: aqua; */
+}
+.link9{
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #777;
+}
+.lasts5{
+    position: absolute;
+    display: flex;
+    justify-content:space-between;
+    left: 50px;
+    top: 396%;
+    align-items:center;
+}
+#right9{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size:15px;
+    color: #777;
+}
+.lasts1{
+  
+    display: flex;
+    justify-content:space-between;
+   
+    align-items:center;
+    margin-left: 50px;
+}
+
+.lasts2{
+  
+    left: 50px;
+    top: 300%;
+    align-items:center;
+    margin-left: 750px;
+}
+#earth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #777;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+#lasts12 {
+  
+    font-size: 30px;
+ /* text-align: center; */
+ margin-right: 10px;
+ color: #777;
+}
+
